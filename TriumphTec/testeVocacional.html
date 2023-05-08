@@ -1,0 +1,190 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="stylesheet" href="css/styleTeste.css">
+    <title>Triumph Tec</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/style_font.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <nav class="navbar col-12  navbar-expand-lg" style="background-color: #89bad9;">
+
+      <div class="container">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img src="./img/logo/logo.png" alt="./img/logo/logo.png" width="100px" height="100px" class="img-thumbnail">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-direction: column;">
+            <ul class="nav navbar-pills;">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="testeVocacional.html">Teste Vocacional</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Profissões
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" style="background-color: #89bad9">
+                <li><a class="dropdown-item" href="Analista de sistemas.html">Analista de sistemas</a></li>
+                <li><a class="dropdown-item" href="Desenvolvedor de Software.html">Desenvolvedor de Software</a></li>
+                <li><a class="dropdown-item" href="Desenvolvedor Web.html">Desenvolvedor Web</a></li>
+                <li><a class="dropdown-item" href="Segurança da Informação.html">Segurança da Informação</a></li>
+                <li><a class="dropdown-item" href="UI UX Designer.html">UI UX Designer</a></li>
+              </ul>
+            </li>
+        <div class="nav-item">
+        <div class="dark_mode">
+          <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk" onclick="myFunction()">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div> 
+      </div>
+          </ul> 
+        </header>
+    </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Conteúdo -->
+    <div class="fundo">	
+      <div class="linhas">
+        <div class="segunda coluna">
+          <br>
+          <h2>Teste Vocacional</h2>
+  
+          <div id="barraProg"></div>
+          <form class="caixaQuestao">
+  
+            <div id="questao1">
+              <h2>Questão 1</h2>
+              <h3>Quando penso numa profissão, o mais importante para mim é:</h3>
+              <input id="questao1A" type="radio" name="alternativa" value="1"> Obter um bom retorno financeiro e ser bem sucedido.<br>
+              <input id="questao1B" type="radio" name="alternativa" value="2"> Trabalhar em algo que esteja em evidência no mercado.<br>
+              <input id="questao1c" type="radio" name="alternativa" value="3"> Fazer algo que gosto, independente do retorno financeiro.<br>
+              <input id="questao1D" type="radio" name="alternativa" value="4"> Ser muito bem sucedido financeiramente.<br>
+              <input id="questao1E" type="radio" name="alternativa" value="5"> Poder atuar em minha comunidade.<br>
+              <buttun id="proximaQuestao1" class="botaoProximo">Enviar Resposta</buttun>
+              <div class="limpar"></div>
+            </div>
+  
+           <div id="questao2">
+             <h2>Questão 2</h2>
+             <h3>Das viagens abaixo, qual seria considerada por você como a viagem perfeita?</h3>
+             <input id="questao2A" type="radio" name="alternativa" value="1"> Conhecer os castelos antigos da Europa e visitar os museus.<br>
+             <input id="questao2B" type="radio" name="alternativa" value="2"> Surf e aventuras radicais na Austrália.<br>
+             <input id="questao2C" type="radio" name="alternativa" value="3"> Compras e conforto, viajando pelos Estados Unidos.<br>
+             <input id="questao2D" type="radio" name="alternativa" value="4"> Conhecer as particularidades da cultura asiática no Japão.<br>
+             <input id="questao2E" type="radio" name="alternativa" value="5"> Descansar com a família em uma ilha paradisíaca.<br>
+             <buttun id="proximaQuestao2" class="botaoProximo">Enviar Resposta</buttun>
+             <div class="limpar"></div>
+           </div>
+          
+           <div id="questao3">	
+             <h2>Questão 3</h2>
+             <h3>A pessoa da sua família que você mais admira:</h3>
+             <input id="questao3A" type="radio" name="alternativa" value="1"> Estudou bastante e possui uma posição de destaque no mercado de trabalho.<br>
+             <input id="questao3B" type="radio" name="alternativa" value="2"> É aventureira e viaja bastante.<br>
+             <input id="questao3C" type="radio" name="alternativa" value="3"> Curte a vida e está sempre descobrindo coisas novas.<br>
+             <input id="questao3D" type="radio" name="alternativa" value="4"> É bastante criativa e está sempre com novidades.<br>
+             <input id="questao3E" type="radio" name="alternativa" value="5"> Se dedica a algum trabalho de ajuda ao próximo.<br>
+             <buttun id="proximaQuestao3" class="botaoProximo">Enviar Resposta</buttun>
+             <div class="limpar"></div>
+           </div>
+  
+           <div id="questao4">
+              <h2>Questão 4</h2>
+              <h3>Qual dos esportes abaixo você mais se identifica?</h3>
+              <input id="questao4A" type="radio" name="alternativa" value="1"> Futebol. <br>
+              <input id="questao4B" type="radio" name="alternativa" value="2"> Lutas.<br>
+              <input id="questao4C" type="radio" name="alternativa" value="3"> Natação.<br>
+              <input id="questao4D" type="radio" name="alternativa" value="4"> Tênis.<br>
+              <input id="questao4E" type="radio" name="alternativa" value="5"> Não gosto de esportes.<br>
+              <buttun id="proximaQuestao4" class="botaoProximo">Enviar Resposta</buttun>
+              <div class="limpar"></div>
+            </div>
+  
+            <div id="questao5">
+              <h2>Questão 5</h2>
+              <h3>Em um ambiente onde você não conhece ninguém, você costuma:</h3>
+              <input id="questao5A" type="radio" name="alternativa" value="1"> Ficar em um lugar isolado.<br>
+              <input id="questao5B" type="radio" name="alternativa" value="2"> Conversar com alguém que possa lhe introduzir a um grupo.<br>
+              <input id="questao5C" type="radio" name="alternativa" value="3"> Curtir sozinho.<br>
+              <input id="questao5D" type="radio" name="alternativa" value="4"> Se socializar e conquistar amigos.<br>
+              <input id="questao5E" type="radio" name="alternativa" value="5"> Se sentir incomodado por estar sozinho e vai embora.<br>
+              <buttun id="proximaQuestao5" class="botaoProximo">Enviar Resposta</buttun>
+              <div class="limpar"></div>
+            </div>
+  
+           <div id="questao6"> 
+             <h2>Teste Vocacional concluido!</h2>
+             <h3>Sua pontuação É: </h3>
+             <h1 id=totalResposta></h1>
+             <h3>Profissão indicada:</h3>
+             <a href=""id=profissao><p id=profissao class="prof"></p></a>
+
+           </div>
+           <br>
+
+          </form>
+  
+        </div>
+      </div>
+    </div>
+  
+    
+    <footer id="footerPrincipal">
+      <div class="Footer-top">
+          <div class="Footer-text" style="display: flex;width: 100%;height: 80%;align-content: center;justify-content: space-evenly">
+              <div class="footer-menu">
+                  <h3 style="border-bottom:1px solid #fff;margin-bottom: 1rem;">Menu</h1>
+                  <a href="index.html"><p>Pagina Inicial</p></a>
+                  <a href="#"><p>Teste Vocacional</p></a>
+                  <a href=""><p>Contato</p></a>
+              </div>
+              <div class="Redes_sociais">
+                  <h3 style="border-bottom:1px solid #fff;margin-bottom: 1rem;">Parceiros</h1>
+                  <a href="https://www.apple.com/br/store?afid=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcrid_649520934899_pgrid_17049243418_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-"><p>Apple<i class="bi bi-apple"></i></p></a>
+                  <a href="https://www.microsoft.com/pt-br"><p>Microsoft<i class="bi bi-microsoft"></i></p></a>
+                  <a href="https://www.playstation.com/pt-br/"><p>Sony<i class="bi bi-playstation"></i></p></a>
+                  <a href="https://www.nvidia.com/pt-br/"><p>Nvidia<i class="bi bi-nvidia"></i></p></a>
+              </div>
+              <div class="Atendimento">
+                  <h3 style="border-bottom:1px solid #fff;margin-bottom: 1rem">Contatos<i class="bi bi-github"></i></h1>
+                  <a href=""><p>Saiba Mais Sobre a Gente</p></a>
+              </div>
+          </div>
+          <div class="Footer">
+            <p style="margin-top: 1rem;font-weight: 400;color: rgba(255, 255, 255, 0.5);">Triumph Tec - 2023, todos os direitos reservados.</p>
+          </div>
+      </div>
+      
+  </footer>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+  <script>
+    function myFunction() 
+    {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+  </script>
+  </body>
+
+</html>

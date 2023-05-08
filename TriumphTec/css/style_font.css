@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto',sans-serif;
+    justify-content: center;
+    text-align: justify;
+}
+
+body::first-letter
+{
+    text-transform:capitalize;
+}
+
+a
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif; 
+    text-align: justify;
+}
+
+.Footer p
+{
+    text-align: center;
+}
