@@ -11,44 +11,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style_font.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <nav class="navbar col-12  navbar-expand-lg" style="background-color: #89bad9;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-image: linear-gradient(to top, #9682bf, #8166ad, #6d4b9a, #592f87, #460e73);">
 
-        <div class="container">
-          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-            <img src="./img/logo/logo.png" alt="./img/logo/logo.png" width="100px" height="100px" class="img-thumbnail">
-            </a>
+      <div class="container-fluid">
+        <a href="index.html"><h3 style="font-family: 'Playfair Display', serif;color: white;"><i class="bi bi-cpu" style="margin-right: 0.5rem;"></i>Triumph Tec<i class="bi bi-cpu" style="margin-left: 0.5rem;"></i></h3></a>     
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-direction: column;">
               <ul class="nav navbar-pills;">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="testeVocacional.html">Teste Vocacional</a>
+              <li class="nav-item ms-lg-5">
+                <a class="nav-link active" aria-current="page" href="testeVocacional.html">Teste Vocacional</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item dropdown ms-lg-5">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                  Profissões
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark" style="background-color: #89bad9">
+                <ul class="dropdown-menu dropdown-menu-dark" style="background-image: linear-gradient(to top, #9682bf, #8166ad, #6d4b9a, #592f87, #460e73);"id="drop">
                   <li><a class="dropdown-item" href="Analista de sistemas.html">Analista de sistemas</a></li>
                   <li><a class="dropdown-item" href="Desenvolvedor de Software.html">Desenvolvedor de Software</a></li>
                   <li><a class="dropdown-item" href="Desenvolvedor Web.html">Desenvolvedor Web</a></li>
-                  <li><a class="dropdown-item" href="Segurança da Informação.html">Segurança da Informação.html</a></li>
+                  <li><a class="dropdown-item" href="Segurança da Informação.html">Segurança da Informação</a></li>
                 </ul>
               </li>
           <div class="nav-item">
-          <div class="dark_mode">
+          <div class="dark_mode ">
             <input type="checkbox" class="checkbox" id="chk" />
               <label class="label" for="chk" onclick="myFunction()">
                 <i class="fas fa-moon"></i>
                 <i class="fas fa-sun"></i>
-                <div class="ball"></div>
+                <div id="ball" class="ball"></div>
               </label>
             </div> 
         </div>
@@ -61,95 +60,149 @@
       </nav>
 
     <!-- Conteúdo -->
-    <section class="container">
+    <section class="container" style="margin-top: 9rem;">
+      <div class="container px-3 py-3" id="icon-grid">
+      <h2 style="display: flex;justify-content: center;"id=""><b>UI/UX Designer</b></h2>
+      <div class="container px-2 py-2" id="icon-grid">
+      <div style="display: flex;justify-content: center;">
+            <img src="img/ui_ux.png" alt="Imagem da profissão" width="90%"height="35%">
+          </div>
 
-      <h1 style="display: flex;justify-content: center;"id="inicio"> <strong>UX/UI Designer</strong></h1>
-          <div class="imagem_profissao"><img src="imagens/img andre finalizado.PNG" alt="Imagem da profissão"></div>
           
       <div class="row mt-5 g-4">
 
         <div class="col-md-12">
           <div class="conteudo1">
-            <h5><strong>UX</strong> é a experiência do usuário, é a relação de uma pessoa com a experiencia
-            de um produto ou serviço, o UX designer elabora mapas de navegação do usuario,
-            pesquisa e proto tipa. Ele é o responsável por fazer os testes de usabilidade
-            e de desenvolver soluções inovadoras<br>
-            Muito além de um design bonito, quem trabalha com UX Design precisa focar as pessoas.<br>
-            Entre as muitas perguntas que precisam ser respondidas para alcançar a eficiência da experiência
-            estão, como a pessoa vai usar o produto?</h5>
+            <h3><strong>UX Designer</strong></h3><br>
+            <p>Aquele que se dedica a otimizar a experiência de clientes. 
+            Esse profissional é essencial para garantir a satisfação dos clientes de serviços e produtos<br>
+            O UX Designer é o profissional que atua com o propósito de atrelar os conhecimentos da área do
+            Design e buscar melhorias para a experiência do usuário.<br>
+            Ele deverá estar atento para critérios de funcionamento, como a Usabilidade, Arquitetura e Design
+            da Informação e Gestão de Conteúdo. O profissional poderá colocar em prática o seu conhecimento de 
+            áreas específicas de Design e solucionar problemas e dores de determinado usuário.<br>
+            <h3><Strong>Atuação do UX designer</Strong></h3>Atua com a jornada do usuário e visualiza os 
+            pontos de contato entre plataforma e 
+            público. O profissional deverá cuidar dos itens que perpassam a experiência do cliente e são 
+            passíveis de atingir as percepções, emoções e comportamentos das pessoas que usufruem de determinado 
+            produto ou serviço.<br>
+            O UX Design terá uma rotina de pesquisas para a elaboração das suas ações, poderá ter o processo 
+            analítico de dados como parte do cotidiano profissional e realizar entrevistas/contatos com pessoas 
+            que usufruem do seu produto/serviço para mapear a jornada do cliente e/ou a proposta de valor do 
+            produto.<br>
+            Além disso, as ideias e as possibilidades de alteração e melhoria podem/devem ser compartilhadas 
+            para outros times dentro de uma empresa. O UX Designer poderá trabalhar em conjunto com outros times,
+            Marketing, Vendas e Produto, por exemplo, para notificar alterações, saber o impacto das melhorias de
+            outros times e buscar alinhamentos para explorar pontos de melhorias em outros departamentos da 
+            empresa.<br>
+            <strong>Onde atua</strong> O UX designer atua, geralmente, em equipes de produto, tecnologia e
+            inovação. Este profissional poderá atuar em empresas do mercado financeiro, empresas de tecnologia
+            da informação, empresas do setor educacional e startups.<br>
+            <br>
+            <strong>O salário médio</strong> nacional de um UI Designer é de R$ 3.118,89 por mês no Brasil, dados do site <a href=https://querobolsa.com.br/ >Quero Bolsa</a>.</p>
             
           </div>
         </div>
       
         <div class="col-md-12">
         <div class="conteudo1">
-          <h5><strong>UI</strong> é a interface do usuário, é a parte visual e de interação com um determinado 
-            produto ou serviço.<br>
-            Imagine um botão de aceitar na cor vermelha ou um ícone de X para fazer login. Esses são desastres 
-            prontos para acontecer!
-            A principal tarefa de um UI Designer é desenhar uma interface de forma que ela seja clara, objetiva
-            e principalmente intuitiva para o usuário.<br>
-            O papel dele é conhecer padrões de uso da sociedade e costumes subjetivos para tornar o uso de um 
-            aparelho eletrônico tão natural que o usuário nem precise pensar.</h5>
+          <br>
+        <h3><strong>UI Designer</strong></h3><br>
+        <p>Responsável pela criação e desenvolvimento da interface do usuário. O profissional está 
+        habilitado para realizar melhorias na interface de plataformas visando a melhor utilização de um 
+        produto ou serviço pelo usuário.<br>
+        UI designer, ou designer de interface do usuário, promove a criação e o desenvolvimento da interface 
+        explorada pelo usuário em um produto ou serviço. O profissional trabalha muito próximo 
+        (em alguns casos, concomitantemente) ao UX design (designer de experiência). 
+        Afinal, as duas áreas de atuação desempenham funções de detecção e compreensão da atividade do usuário.<br>
+        <h3><Strong>Atuação do UI designer</Strong></h3> Adentra a criação de layouts e o cenário de interação 
+        do usuário em determinada plataforma. O profissional atuará com soluções que tenham como consequência
+        o impacto na funcionalidade, estética e a usabilidade do produto ou serviço.<br>
+        Além do design, o designer
+        de interface do usuário pode ter um conhecimento abrangente em outras áreas, por exemplo, tecnologia e
+        comunicação. <br>
+        <strong>Onde atua</strong> O UI designer pode atuar em empresas que trabalham ou necessitam de interfaces
+        físicas ou digitais. Ou seja, a área de atuação do profissional pode abranger as próprias empresas no 
+        ramo do design ou a prestação de serviços para demais indústrias e outros setores comerciais. Com a vasta
+        presença das empresas no mundo digital, o UI designer pode desempenhar funções para bancos, multinacionais,
+        startups e outros tipos de empresas com vivência tecnológica. Outra opção de prestação de serviços é a
+        consultoria para as empresas que administram interface ou aplicativos de interligação com o usuário.
+        <br>
+        <br>
+        <strong>O salário médio</strong> nacional de um UI Designer é de R$ 4.359,00 por mês no Brasil, dados do site <a href=https://querobolsa.com.br/ >Quero Bolsa</a>.</p>
         </div>
       </div>
-
-        <div class="col-md-12">
-        <div class="conteudo1">
-          <h5><strong>As áreas de atuação</strong><br>
-            desenvolvimento de web sites e aplicativos, análise de usabilidade, 
-            rquitetura da informação, UX Research, Ux Writer. a média salarial pode variar de R$ 2.000 para
-            Ux Designer Jr. a R$ 8.000,00 para Ux Designer Sênior.</h5>
-        </div>
-      </div>
-      </div>    
-      
-      <div class="b-example-divider"></div>
-
-  <div class="container px-4 py-5" id="icon-grid">
-    
-
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
-        
     </div>
   </div>
     </section>
-    <footer>
-      <div class="Footer-top">
-          <div class="Footer-text" style="display: flex;width: 100%;height: 80%;align-content: center;justify-content: space-evenly">
-              <div class="footer-menu">
-                  <h3 style="border-bottom:1px solid #fff;margin-bottom: 1rem;">Menu</h1>
-                  <a href="#inicio"><p>Pagina Inicial</p></a>
-                  <a href="testeVocacional.html"><p>Teste Vocacional</p></a>
-                  <a href=""><p>Contato</p></a>
-              </div>
-              <div class="Redes_sociais">
-                  <h3 style="border-bottom:1px solid #fff;margin-bottom: 1rem;">Parceiros</h1>
-                  <a href="https://www.apple.com/br/store?afid=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcrid_649520934899_pgrid_17049243418_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-"><p>Apple<i class="bi bi-apple"></i></p></a>
-                  <a href="https://www.microsoft.com/pt-br"><p>Microsoft<i class="bi bi-microsoft"></i></p></a>
-                  <a href="https://www.playstation.com/pt-br/"><p>Sony<i class="bi bi-playstation"></i></p></a>
-                  <a href="https://www.nvidia.com/pt-br/"><p>Nvidia<i class="bi bi-nvidia"></i></p></a>
-              </div>
-              <div class="Atendimento">
-                  <h3 style="border-bottom:1px solid #fff;margin-bottom: 1rem">Contatos<i class="bi bi-github"></i></h1>
-                  <a href=""><p>Saiba Mais Sobre a Gente</p></a>
-              </div>
+
+    <footer style="background-image: linear-gradient(to top, #9682bf, #8166ad, #6d4b9a, #592f87, #460e73);margin-top: 1rem;">
+      <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <p>Triumph Tec - 2023<br>todos os direitos reservados</p>
           </div>
-          <div class="Footer">
-              <p style="margin-top: 1rem;font-weight: 400;color: rgba(255, 255, 255, 0.5);">Triumph Tec - 2023, todos os direitos reservados.</p>
+      
+          <div class="col mb-3">
+      
           </div>
+      
+          <div class="col mb-3" id="menu_footer">
+            <h5 class="text-white">Menu</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 ">Pagina Inicial</a></li>
+              <li class="nav-item mb-2"><a href="testeVocacional.html" class="nav-link p-0 ">Teste Vocacional</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3" id="parceiros_footer">
+            <h5 class="text-white">Parceiros</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.apple.com/br/store?afid=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcrid_649520934899_pgrid_17049243418_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-" class="nav-link p-0 ">Apple<i class="bi bi-apple" style="margin-left: 1rem;"></i></a></li>
+              <li class="nav-item mb-2"><a href="https://www.microsoft.com/pt-br" class="nav-link p-0 ">Microsoft<i class="bi bi-microsoft" style="margin-left: 1rem;"></i></a></li>
+              <li class="nav-item mb-2"><a href="https://www.playstation.com/pt-br/" class="nav-link p-0 ">Sony<i class="bi bi-playstation" style="margin-left: 1rem;"></i></a></li>
+              <li class="nav-item mb-2"><a href="https://www.nvidia.com/pt-br/" class="nav-link p-0 ">Nvidia<i class="bi bi-nvidia" style="margin-left: 1rem;"></i></a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3" id="contatos_footer">
+            <h5 class="text-white">Contatos<i class="bi bi-github" style="margin-left:1rem;"></i></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="sobreNos.html" class="nav-link p-0 ">Saiba Mais Sobre a Gente</a></li>
+            </ul>
+          </div>
+        </footer>
       </div>
   </footer>
-      <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
-      <script>
-        function myFunction() 
-        {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
+
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+  <script>
+    var element = document.body;
+    let tema = localStorage.getItem('tema') == 'true' ? true : false;
+    let estaDark = element.classList.contains('dark-mode')
+    var bola = document.getElementById("ball");
+
+    if (!tema){
+      element.classList.remove("dark-mode");
+      bola.style.transform = "translateX(0px)";
+    } else if (tema) {
+      element.classList.add("dark-mode");
+      bola.style.transform = "translateX(24px)";
+    }
+    function myFunction() 
+    {
+        element.classList.toggle("dark-mode");
+        localStorage.setItem('tema', element.classList.contains('dark-mode')?true:false)
+        if (!tema){
+          bola.style.transform = "translateX(24px)";
+        } else if (tema) {
+          bola.style.transform = "translateX(0px)";
         }
-        </script>
+    }
+  </script>
     </body>
 
 </html>

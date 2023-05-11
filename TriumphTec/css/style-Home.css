@@ -9,9 +9,8 @@
 .dark_mode
 {
     position: absolute;
-    right: 6rem;
-    top: 2.6rem;
-} 
+    right: 3rem;
+}
 
 .checkbox
 {
@@ -80,8 +79,7 @@
 
 #navbarSupportedContent ul li a:hover
 {
-    background-color: #92bf65;
-    color: #000;
+    color: #F07402;
     border-radius: 5px;
     transition: 0.2s;
 }
@@ -97,39 +95,10 @@
     margin-left: 0;
 }
 
-.footer-top
-{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    position: relative;
-    height: 20rem;
-    width: 100%;
-    background-color:#89bad9;
-    color: white;
-    text-align: center;
-}
-.footer
-{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #688ea6;
-    color: white;
-    text-align: center;
-}
 
 footer
 {
     margin-top: auto;
-}
-
-#Footer li a:hover
-{
-    background-color: #92bf65;
-    color: #000;
-    border-radius: 5px;
-    transition: 0.2s;
 }
 
 /*inicio conteudo*/
@@ -237,4 +206,53 @@ footer
 #footer_i i
 {
     margin-left: 1rem;
+}
+
+#mais
+{
+    display: none;
+}
+
+#btnLeiaMais
+{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+footer p
+{
+    color: white;
+}
+
+#contatos_footer ul li a
+{
+    color:white;
+}
+
+#contatos_footer ul li a:hover
+{
+ color: #F07402;
+}
+
+#parceiros_footer ul li a
+{
+    color:white;
+}
+
+
+#parceiros_footer ul li a:hover
+{
+    color: #F07402;
+}
+
+#menu_footer ul li a
+{
+    color:white;
+}
+
+
+#menu_footer ul li a:hover
+{
+    color: #F07402;
 }

@@ -1,53 +1,164 @@
+
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Site</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='CSS/CSS.css'>
-    <script src='Java/Java.js'></script>
-    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/style-Home.css">
+    <title>Triumph Tec</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_font.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-image: linear-gradient(to top, #9682bf, #8166ad, #6d4b9a, #592f87, #460e73);">
 
-    <nav class="navbar col-12 position-fixed navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./img/logo/logo.png" class="col-1 img-thumbnail" alt="./img/logo/logo.png"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+    <div class="container-fluid">
+      <a href="#"><h3 style="font-family: 'Playfair Display', serif;color: white;"><i class="bi bi-cpu" style="margin-right: 0.5rem;"></i>Triumph Tec<i class="bi bi-cpu" style="margin-left: 0.5rem;"></i></h3></a>     
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-direction: column;">
+            <ul class="nav navbar-pills;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ms-lg-5">
+              <a class="nav-link active" aria-current="page" href="testeVocacional.html">Teste Vocacional</a>
+            </li>
+            <li class="nav-item dropdown ms-lg-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Profissões
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" style="background-image: linear-gradient(to top, #9682bf, #8166ad, #6d4b9a, #592f87, #460e73);"id="drop">
+                <li><a class="dropdown-item" href="Analista de sistemas.html">Analista de sistemas</a></li>
+                <li><a class="dropdown-item" href="Desenvolvedor de Software.html">Desenvolvedor de Software</a></li>
+                <li><a class="dropdown-item" href="Desenvolvedor Web.html">Desenvolvedor Web</a></li>
+                <li><a class="dropdown-item" href="Segurança da Informação.html">Segurança da Informação</a></li>
+                <li><a class="dropdown-item" href="UI UX Designer.html">UI UX Designer</a></li>
+              </ul>
+            </li>
+        <div class="nav-item">
+        <div class="dark_mode ">
+          <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk" onclick="myFunction()">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div id="ball" class="ball"></div>
+            </label>
+          </div> 
+      </div>
+          </ul> 
+        </header>
+    </div>
+
         </div>
-      </nav>
+      </div>
+    </nav>
 
-  </body>
+    <section class="container" style="padding-top: 10rem;">
+      <div class="teste"style="display: flex;
+      align-items:center;
+      flex-wrap: wrap;
+      flex-direction: column;">
+        <h1>SOBRE NÓS</h1>
+        <br>
+      </div>
+      <div>
+        <h2>NOSSA MISSÃO É AJUDAR VOCÊ NESSA ESCOLHA PRA VIDA TODA!</h2>
+        <p style="margin-top: 1rem;">Nos momentos da vida onde temos que fazer escolhas é sempre bom ter um apoio não é mesmo? Nos dá Triumph Tec queremos te ajudar. Nosso objetivo é indicar qual área da Tecnologia da Informação vai ou já está em ascensão para que você consiga um acerto melhor.</p>
+        <h2>MISSÃO:</h2>
+        <P style="margin-top: 1rem;">Facilitar do início ao fim a escolha da jornada da sua carreira, trabalhando com inteligência para encontrar os melhores caminhos.</P>
+        <h2>VISÃO:</h2>
+        <P style="margin-top: 1rem;">Atingir o maior número de pessoas com impacto positivo, relacionamento humano e segurança com soluções para o mercado tecnológico, assim como desenvolver nossa cidade e nossos colaboradores.</P>
+        <h2>VALORES:</h2>
+        <P style="margin-top: 1rem;">Capacidade de Inovação: No mundo da tecnologia, geramos e mostramos valores aos nossos clientes. Somos tradicionais no mercado, mas arrojados nas atitudes.</P>
+        <h3>CONTATOS:</h3>
+        <p style="margin-top: 1rem;">Gmail: contato@triumphtec.com.br</p>
+        <p style="margin-top: 1rem;">Facebook: Triumph Tec</p>
+        <p style="margin-top: 1rem;">Instagram:@Triumph_Tec</p>
+        <h2>Desenvolvedores:</h2>
+        <p style="margin-top: 1rem;">André Morais G004FD2</p>
+        <p style="margin-top: 1rem;">Gabriel Mofatto N056797</p>
+        <p style="margin-top: 1rem;">Iago Traldi G792548</p>
+        <p style="margin-top: 1rem;">Jean Andrea N070DJ1</p>
+        <p style="margin-top: 1rem;">Murilo Aleixo G76BHE4</p>
+        <p style="margin-top: 1rem;">Thainan Costa N234JCO</p>
+      </section>
+    </div>
+
+    <footer style="background-image: linear-gradient(to top, #9682bf, #8166ad, #6d4b9a, #592f87, #460e73);margin-top: 1rem;">
+      <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <p>Triumph Tec - 2023<br>todos os direitos reservados</p>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3" id="menu_footer">
+            <h5 class="text-white">Menu</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 ">Pagina Inicial</a></li>
+              <li class="nav-item mb-2"><a href="testeVocacional.html" class="nav-link p-0 ">Teste Vocacional</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3" id="parceiros_footer">
+            <h5 class="text-white">Parceiros</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.apple.com/br/store?afid=p238%7CsikJb1MHC-dc_mtid_1870765e38482_pcrid_649520934899_pgrid_17049243418_pntwk_g_pchan__pexid__&cid=aos-br-kwgo-brand--slid---product-" class="nav-link p-0 ">Apple<i class="bi bi-apple" style="margin-left: 1rem;"></i></a></li>
+              <li class="nav-item mb-2"><a href="https://www.microsoft.com/pt-br" class="nav-link p-0 ">Microsoft<i class="bi bi-microsoft" style="margin-left: 1rem;"></i></a></li>
+              <li class="nav-item mb-2"><a href="https://www.playstation.com/pt-br/" class="nav-link p-0 ">Sony<i class="bi bi-playstation" style="margin-left: 1rem;"></i></a></li>
+              <li class="nav-item mb-2"><a href="https://www.nvidia.com/pt-br/" class="nav-link p-0 ">Nvidia<i class="bi bi-nvidia" style="margin-left: 1rem;"></i></a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3" id="contatos_footer">
+            <h5 class="text-white">Contatos<i class="bi bi-github" style="margin-left:1rem;"></i></h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Saiba Mais Sobre a Gente</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+  <script>
+    var element = document.body;
+    let tema = localStorage.getItem('tema') == 'true' ? true : false;
+    let estaDark = element.classList.contains('dark-mode')
+    var bola = document.getElementById("ball");
+
+    if (!tema){
+      element.classList.remove("dark-mode");
+      bola.style.transform = "translateX(0px)";
+    } else if (tema) {
+      element.classList.add("dark-mode");
+      bola.style.transform = "translateX(24px)";
+    }
+    function myFunction() 
+    {
+        element.classList.toggle("dark-mode");
+        localStorage.setItem('tema', element.classList.contains('dark-mode')?true:false)
+        if (!tema){
+          bola.style.transform = "translateX(24px)";
+        } else if (tema) {
+          bola.style.transform = "translateX(0px)";
+        }
+    }
+  </script>
+    </body>
+
 </html>
