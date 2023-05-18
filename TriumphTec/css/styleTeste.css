@@ -164,8 +164,8 @@ footer p
 
 
 input[type='radio']:checked:after {
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     border-radius: 15px;
     background-color: #6d4b9a;
     content: '';
